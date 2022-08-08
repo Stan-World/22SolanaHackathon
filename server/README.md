@@ -8,9 +8,9 @@ This main server provides API endpoints for clients to use.
 Scheduler serves to increment and adjust vitapoints. Must run on the same server as main server.
 
 ## Preparation
-1. Install Node.js
-2. Install Yarn
-3. Install Eslint, TypeScript, 
+1. Install Node.js.
+2. Install Yarn.
+3. Install Eslint and TypeScript globally.
 4. Replace values at `.env` to valid input.
     * var ending in _PUB_KEY or _PRV_KEY: 123,12,23,123,....
     * var ending in _PUB: DbjsUte2d....
@@ -25,6 +25,12 @@ Scheduler serves to increment and adjust vitapoints. Must run on the same server
 > tsc
 ```
 3. Run server using Node
+
+```
+> yarn start
+```
+or
+
 ```
 > node dist/main.js
 ```

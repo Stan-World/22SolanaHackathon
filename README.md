@@ -1,2 +1,8 @@
-# 22SolanaHackathon
-Public repository to submit for Solana Hackerthon
+# 2022 Solana Summer Camp Online Hackathon
+This is Stan World's demo project for Solana Summcer Camp Online Hackathon. 
+
+## Server
+Stores backend code for server.
+
+## Client
+Stores frontend code for client.
